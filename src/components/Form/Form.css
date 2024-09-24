@@ -1,0 +1,49 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    max-width: 50%;
+    color: #000;
+    margin: 5rem auto 0 auto;
+}
+
+.form h2{
+    font-size: 2rem;
+    color: var(--quaternary-color);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.form-group input{
+    height: 20px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.form button{
+    height: 40px;
+    background-color: var(--quaternary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form button:hover{
+    background-color: var(--quinary-color);
+}
+
+
