@@ -3,7 +3,7 @@ import './Book.css';
 
 export default function Book(props) {
     return (
-        <div className="book-card">
+        <li className="book-card">
             <div>
                 <img src={props.imagem} alt={props.alt} />
             </div>
@@ -12,7 +12,7 @@ export default function Book(props) {
                 <p>{props.autor}</p>
                 <Button className="btn-buy">Comprar</Button>
             </div>
-        </div>
+        </li>
     );
 }
 

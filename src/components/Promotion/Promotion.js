@@ -1,11 +1,11 @@
 import './Promotion.css';
 
-export default function Promotion(props) {
+export default function Promotion({children}) {
     return (
-        <div className="promotion">
+        <section className="promotion">
             <h1 className="title-main mt20 mb20">
-                {props.children}
+                {children}
             </h1>
-        </div>
+        </section>
     );
 }
